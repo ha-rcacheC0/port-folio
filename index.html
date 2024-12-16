@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="top" class="nav-section">
+      <div class="topnav">
+        <div class="logo">
+          <h1>Consulting 109</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section id="about">
+      <figure>
+        <img src="/imgs/pic.png" alt="pic" width="300" />
+        <figcaption>
+          <h2>Hello, I'm Lucas Keller! 👋🏻</h2>
+          Full Stack Developer based in North Dakota, USA. My goal in every
+          project is to write clean, elegant code that translates into the best
+          overall user experience. <br /><br />I write code to inspire a new
+          generation of web developers. Growing up as a kid I had a passion for
+          cutting edge technologies and as an adult I look forward to pass on my
+          experience for our future! This is the start of making your dreams
+          come to reality.
+        </figcaption>
+      </figure>
+    </section>
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="skills-cards">
+        <div class="skill-card">
+          <img src="imgs/html.svg" alt="html" />
+          <h4>HTML</h4>
+          <p>3 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/css.png" alt="css" />
+          <h4>CSS</h4>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/js.webp" alt="js" />
+          <h4>JavaScript</h4>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/node.webp" alt="node" />
+          <h4>Node.js</h4>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/react.webp" alt="react" />
+          <h4>React</h4>
+          <p>1 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/git.webp" alt="git" />
+          <h4>Git</h4>
+          <p>3 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/linux.webp" alt="linux" />
+          <h4>Linux</h4>
+          <p>7 years experience</p>
+        </div>
+        <div class="skill-card">
+          <img src="imgs/python.webp" alt="python" />
+          <h4>Python</h4>
+          <p>4 years experience</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="projects-container">
+        <div class="project">
+          <h5>HTML Projects</h5>
+          <ul>
+            <li>
+              Developed several projects HTML projects that include forms,
+              tables and plenty of meta, creative writing and information on
+              these websites.
+              <hr class="hr" />
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h5>CSS Projects</h5>
+          <ul>
+            <li>
+              Styled numerous projects in CSS focused on UI, UX and creating
+              seamless engaging mobile first responsive layouts that look
+              excellent on all viewports.
+              <hr class="hr" />
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h5>JS Projects</h5>
+          <ul>
+            <li>
+              Built and deployed JavaScript projects that include e-commerce
+              applications, Chrome Extensions, browser games and sites with
+              dynamic user interactivity.
+              <hr class="hr" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="recommendations">
+      <div class="recom-container">
+        <h3>Recommendations</h3>
+        <div class="recoms">
+          <div class="recom">
+            "Lucas did a great job on our project. He listened well, was
+            responsive, and had great communication throughout the process."
+          </div>
+          <div class="recom">
+            "He worked through some tricky aspects of our project and really
+            came through for us. We highly recommend working with Lucas!"
+          </div>
+          <div class="recom">
+            "Lucas was able to offer suggestions that ultimately made the
+            finished product better than we could have imagined."
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h6>Leave a Recommendation</h6>
+      <form id="form">
+        <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Name (Optional)"
+        /><br />
+        <textarea
+          name="message"
+          id="message"
+          cols="100"
+          rows="12"
+          placeholder="Message"
+        ></textarea>
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="Submit" onclick="fun()" />
+      </form>
+    </footer>
+    <a href="#top"
+      ><img src="imgs/arrow-up.png" alt="arrow up" id="arr-up"
+    /></a>
+    <script src="main.js"></script>
+  </body>
+</html>
